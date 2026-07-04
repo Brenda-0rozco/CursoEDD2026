@@ -1,4 +1,11 @@
 Angie viveros y Brenda Orozco
 CENTRO DE ENVÍO Y DESPACHO DE PAQUETES
-Desarrollar en lenguaje C una aplicación para gestionar la recepción y el despacho de paquetes en una empresa de mensajería. Los clientes deberán registrarse en una cola utilizando su número de identidad y serán atendidos respetando el orden en que llegaron, de acuerdo con el principio FIFO. Al atender al primer cliente de la cola, el sistema deberá registrar su paquete, asignarle un código e indicar el nivel de prioridad adquirido según el valor pagado por el servicio.
-Después del registro, cada paquete será almacenado en una de dos pilas: la pila de prioridad 1, destinada a los envíos prioritarios, y la pila de prioridad 2, correspondiente a los envíos ordinarios. Los paquetes de prioridad 1 deberán despacharse antes que los de prioridad 2. Dentro de cada pila, el último paquete almacenado será el primero en ser retirado para su despacho, respetando el principio LIFO. El sistema deberá permitir registrar clientes, atender la cola, clasificar los paquetes, mostrar las pilas de cada prioridad y despachar los paquetes correspondientes.
+Desarrollar en lenguaje C una aplicación para gestionar la recepción y el despacho de paquetes en una empresa de 
+mensajería. Los clientes deberán registrarse en una cola utilizando su número de identidad y serán atendidos respetando 
+el orden en que llegaron, de acuerdo con el principio FIFO. Al atender al primer cliente de la cola, el sistema deberá registrar su paquete,
+asignarle un código e indicar el nivel de prioridad adquirido según el valor pagado por el servicio.
+Después del registro, cada paquete será almacenado en una de dos pilas: la pila de prioridad 1, destinada a los envíos prioritarios, 
+y la pila de prioridad 2, correspondiente a los envíos ordinarios. Los paquetes de prioridad 1 deberán despacharse antes que los de prioridad 
+2. Dentro de cada pila, el último paquete almacenado será el primero en ser retirado para su despacho, respetando el principio LIFO.
+El sistema deberá permitir registrar clientes, atender la cola, clasificar los paquetes, mostrar las pilas de cada prioridad y despachar los paquetes 
+correspondientes.
